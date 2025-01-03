@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 134, 141);
+    color: #ffffff;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for circular flower arrangement */
+.love{
+    display:flex;
+    margin-right: 240px;
+}
+.love1{
+    display:flex;
+    margin-right: 120px;
+}
+.circle-container-top {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    transform: translate(0%,10%); /* Offset for true centering */
+}
+.circle-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    transform: translate(0%, -50%); /* Offset for true centering */
+}
+.circle-container1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    transform: translate(0%, -50%); /* Offset for true centering */
+}
+.circle-container2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    transform: translate(0%, -50%); /* Offset for true centering */
+}
+.circle-container3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    transform: translate(0%, -50%); /* Offset for true centering */
+}
+
+/* Animation */
+@keyframes sway {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(5deg); }
+}
